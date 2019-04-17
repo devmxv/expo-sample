@@ -1,0 +1,152 @@
+/*-------------------------------------------------------------------*/
+/*Expo TyT 2019                                                      */
+/*Archivo de estilos principal                                       */
+/*-------------------------------------------------------------------*/
+/* Fecha de creación: 10-Diciembre-2018                              */
+/*-------------------------------------------------------------------*/
+/* Autor: Luis Martín Vázquez Gómez (BásicoFM)                       */
+/*-------------------------------------------------------------------*/
+
+.titulo-sitio{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*Espacios para centar formulario de búsqueda*/
+.form-espaciado {
+	/*padding: 15px 50px 50px 50px;
+	width: 100%;*/
+}
+
+/*Estilo de texto introductorio*/
+.intro-txt{
+	font-size: 18px;
+	padding: 15px;
+}
+
+/*Estilo y formato para logo expositor*/
+.img-logo-exp{
+	/*float: right;*/
+	margin-bottom: 15px;
+	/*max-width: 180px;*/
+}
+
+/*Estilo y formato para div de info detallada de expositor */
+.block-detalle{
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #c3c3c3; 
+}
+
+.info-expositor{
+	padding: 15px;
+}
+
+/*Espacio entre campo de búsqueda y botón*/
+.btn-espacio{
+	margin-left: 10px;
+}
+
+.banner {
+	/*position: fixed;*/
+	margin-top: 25px;
+}
+
+/*Formato de div sin resultados*/
+.no-resultado{
+	background-color: #fff;
+	border: 1px solid red;
+	font-size: 1.5em;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	padding: 15px;
+	text-align: center;
+	color: red;
+}
+
+/*Estilo de tabla de listado*/
+.tabla-lista{
+	background-color: #c3c3c3;
+}
+
+.txt-tabla{
+	color:#fff;
+}
+
+/*Estilo para encabezado de tabla con resultado*/
+thead{
+	background-color: #dc3545;
+	color: #fff;
+	text-align: center;
+}
+
+/*Estilos para footer*/
+footer{
+	background-color: #dfdede;
+	/*height: 100%;*/
+	bottom: 0;
+	width: 100%;
+	font-size: 12px;
+}
+
+/*Estilo para enlaces*/
+a {
+	color: #dc3545;
+}
+
+/*espacio entre elemento y mapa*/
+.map-int{
+	margin-top: 25px;
+}
+
+/*agregar espacio entre elementos y tabla*/
+#lista-marcas{
+	margin-top: 15px;
+}
+
+.img-directorio{
+	padding: 15px;
+}
+
+/*estilos para vista de escritorio*/
+@media screen and (min-width: 900px) {
+   footer {
+    background-color: #dfdede;
+    /*height: 100%;*/
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+  }    
+/*Estilo de footer en vista escritorio*/
+  footer img {
+  	display: none;
+  }
+  /*clase que define tamaño de campo de texto en vista escritorio*/
+  .sel-tipo{
+  	width: 40%;
+  }
+
+  /*estilo para definir tamaño de campo de texto de entrada*/
+  #textBuscaMarca{
+  	width: 40%;
+  }
+
+  /*Estilo para botón de buscar en escritorio*/
+  .but-buscar{
+  	margin-left: 15px;
+  	width: 20%;
+  }
+}
+
+/*Para dispositios móviles*/
+@media screen and (max-width: 768px) {
+	/*estilo de botón de búsqueda*/
+   .but-buscar{
+   	width: 100%;
+   }
+}
+
+
+
+
+
