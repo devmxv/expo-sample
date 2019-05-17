@@ -5,3 +5,8 @@ This is a small web app which simulates as a guide to locate expositors in a tru
 It was made in PHP using the OOP approach, PDO, jQuery and AJAX for asynchronous funciontality.
 
 
+Check the live demo here:
+
+https://devmxv.com/expo-sample
+
+
